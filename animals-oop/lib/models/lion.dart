@@ -1,4 +1,4 @@
-import '../lib/animal_model.dart';
+import 'animal_model.dart';
 
 class Lion extends animalModel {
   Lion(
@@ -10,7 +10,6 @@ class Lion extends animalModel {
   void makeSound() {
     print('Roar!');
   }
-
   
   void eat() {
     print('Lion eats meat.');
@@ -19,5 +18,4 @@ class Lion extends animalModel {
   void hunt() {
     print('Lion is hunting.');
   }
-  //...
 }
