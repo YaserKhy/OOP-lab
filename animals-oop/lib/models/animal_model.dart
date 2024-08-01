@@ -19,7 +19,12 @@ class animalModel{
     print("\n\n######## animal price ------> $price  ########" );
   }
 
-getFood(){
+  getFood(){
     print("\n\n######## animal food ------> $food ########");
   }
+
+  makeSound() {
+    print("Animal $name talks !");
+  }
+
 }
